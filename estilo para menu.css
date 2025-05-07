@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Browallia New", "Times New Roman", Rockwell;
+    background-color: #fff;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #003366; /* azul oscuro */
+    z-index: 1000;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #003366;
+}
+
+.nav > li {
+    position: relative;
+}
+
+.nav > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.nav > li > a:hover {
+    background-color:  #d1b3ff; /* amarillo */
+    color: #000;
+}
+
+/* Submenús */
+.nav li ul {
+    display: none;
+    position: absolute;
+    background-color:  #003366; /* morado */
+    min-width: 160px;
+    list-style: none;
+    top: 100%;
+    left: 0;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li ul {
+    right: -160px;
+    top: 0;
+    position: absolute;
+    display: none;
+}
+
+.nav li ul li:hover > ul {
+    display: block;
+}
+
+.nav li ul li a {
+    background-color: #003366; /* morado */
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    display: block;
+    font-size: 18px;
+    border-radius: 6px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav li ul li a:hover {
+    background-color: #d1b3ff; /* morado clarito */
+    color: white;
+}
+
+/* Contenido debajo del menú */
+#contenido {
+    padding: 20px;
+    margin-top: 80px;
+}

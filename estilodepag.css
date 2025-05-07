@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title {
+    color: #000;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.duration-title, .location-title {
+    color: #000;
+    font-size: 26px;
+    margin-top: 40px;
+}
+
+.duration {
+    font-size: 32px;
+    color: #d68910;
+}
+
+/* Estilo para la tabla de beneficios */
+.benefits-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.benefits-table td {
+    padding: 15px;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.benefits-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.benefits-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}

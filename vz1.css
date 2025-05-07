@@ -1,0 +1,62 @@
+body {
+  font-family: 'Calibri', sans-serif;
+  background-color: #fffafa;
+  margin: 40px;
+}
+
+.tabla-info {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  color: #4a1c1c;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tabla-info thead {
+  background-color: #800020; /* Vino */
+}
+
+.tabla-info th,
+.tabla-info td {
+  padding: 20px;
+  text-align: left;
+  vertical-align: top;
+  font-size: 17px;
+}
+
+.tabla-info th {
+  font-family: 'Constantia', serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.tabla-info td {
+  color: #4a1c1c;
+  background-color: #fff5f5;
+}
+
+.tabla-info tr:nth-child(even) td {
+  background-color: #fdeeee;
+}
+
+/* Efecto hover */
+.tabla-info tr:hover td {
+  background-color: #fcd9d9;
+  transition: background-color 0.3s ease;
+}
+
+/* Responsive para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .tabla-info {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .tabla-info th,
+  .tabla-info td {
+    padding: 12px;
+  }
+}
