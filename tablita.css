@@ -1,0 +1,33 @@
+body {
+  background-color: #f4f4f4;
+  font-family: 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.tabla-mision-vision {
+  border-collapse: collapse;
+  width: 80%;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.tabla-mision-vision th {
+  padding: 20px;
+  font-size: 32px;
+  color: #6C3483;
+  background-color: #D2B4DE;
+}
+
+.tabla-mision-vision td {
+  padding: 20px;
+  font-size: 20px;
+}

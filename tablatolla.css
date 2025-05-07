@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <meta charset="UTF-8">
+  <title>Plan de Estudios - Psicología</title>
+  <style>
+    body {
+      background-color: #f0f3f4;
+      font-family: 'GungsuhChe', serif;
+      padding: 40px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #2e86c1;
+      font-size: 36px;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #d6eaf8;
+      padding: 15px;
+      text-align: left;
+      vertical-align: top;
+      font-size: 16px;
+    }
+
+    th {
+      background-color: #5dade2;
+      color: white;
+      font-size: 20px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f4f6f7;
+    }
+
+    td ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+  </style>
